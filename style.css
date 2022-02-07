@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:yellow;
+    list-style: none;
+}
+nav{
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    display: inline;
+    padding-right: 8em;
+    font-style:inherit;
+}
+.tituloprincipal{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height:12em;
+    width: 100%;   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    z-index: 999;
+    position: fixed;
+}
+h1{
+    background-color: blue;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 4em;
+}
+.subtitulo{
+    background-color:#87CEEB;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 3em;
+}
+main{
+    height: 85em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.apresenta{
+    height: 25%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.textleft{
+    height: 90%;
+    width: 25%;
+}
+.frida{
+    height: 90%;
+    width: 18em;
+}
+ .Fridaimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 5em;
+} 
+.textright{
+    height: 90%;
+    width: 25%;
+}
+p{
+    background-color: orange;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+.posapresenta{
+    height: 40em;
+    width: 100%;
+}
+.obras{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: darkgreen;
+}
+.pinturas{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pintleft{
+    height: 30em;
+    width: 23em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pintmeio{
+    height: 30em;
+    width: 27em;
+    display: flex;
+}
+.pintright{
+    height: 30em;
+    width: 23em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.coluna{
+    height:100%;
+    width:100%;
+} 
+.quadro{
+    height: 14.5em;
+    width: 100%;
+} 
+footer{
+    height: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.foot{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:7em;
+    font-size: 1.5em;
+}
